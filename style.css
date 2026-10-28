@@ -7,3 +7,8 @@
 
 /* STUDIO A brand blue */
 .hero{background:linear-gradient(110deg,#0074b0 10%,#009fe3 100%)}.brand img{background:transparent;padding:0;width:132px;border-radius:0}.footer-brand img{width:92px;height:auto;background:transparent;padding:0}.card .card-icon{background:#edf7fd!important;color:#0077b6!important}.brand{padding:0 3px}.brand span{padding-left:1px}@media(max-width:760px){.brand img{width:113px;padding:0}.brand span{margin-left:15px}}
+
+/* Compact header clock and quick-access section */
+.header-right{gap:16px;white-space:nowrap}.header-time{font-size:12px;color:#56565c;font-variant-numeric:tabular-nums;letter-spacing:.05em}.iphone-banner{margin:0 0 32px}.intro{margin-top:0}.systems{padding-top:32px}.nav-item[data-filter="apple"]{font-size:12px;line-height:1.7}
+@media(max-width:760px){header{gap:10px}.header-right{gap:8px}.header-time{font-size:10px}.header-label{font-size:8px;letter-spacing:0}.date{font-size:8px}.iphone-banner{margin:0 0 28px}.mobile-filters{flex-wrap:wrap;overflow:visible}}
+@media(max-width:360px){header{padding-left:15px;padding-right:15px}.header-right{gap:6px}}
