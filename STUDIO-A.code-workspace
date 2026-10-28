@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.encoding": "utf8",
+    "editor.wordWrap": "on"
+  },
+  "extensions": {
+    "recommendations": [
+      "ritwickdey.LiveServer"
+    ]
+  }
+}
