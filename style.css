@@ -43,3 +43,10 @@ body{font-size:19.2px}
  .search{width:100%}
  .intro h1{font-size:34.8px;line-height:1.45}
 }
+
+/* MyPAL's Home Screen guide is a separate button, outside its link. */
+.card-with-home{display:flex;flex-direction:column;min-width:0}
+.card-with-home>.card{flex:1;border-bottom-left-radius:0;border-bottom-right-radius:0}
+.add-home-button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:12px 16px;background:#eaf6fd;color:#0077b6;border:1px solid #d7eaf5;border-top:0;border-radius:0 0 15px 15px;font-size:13.2px;line-height:1.6}
+.add-home-button:hover{background:#dceffc}
+@media(max-width:760px){.add-home-button{font-size:12px;border-radius:0 0 13px 13px}}
